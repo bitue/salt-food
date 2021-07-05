@@ -1,0 +1,67 @@
+/* overall css  */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif; 
+}
+*{
+    box-sizing: border-box; margin: 0; padding: 0;
+}
+a{
+    text-decoration: none; color: black; font-weight: 700; background-color: skyblue;
+    display: inline-block; padding: 15px; border-radius:15px ; background-image: linear-gradient(-90deg, skyblue, rgb(99, 99, 231));  margin: 20px 30px;
+}
+h1{
+    font-size: 40px; padding: 10px; 
+}
+p{
+    padding: 10px ; font-size: 16px;
+}
+
+.flex-wrap{
+    display: flex; justify-content: center; align-items: center; 
+}
+.flex-wrap img{
+    width: 100%;
+}
+.left-part , .right-part {
+    width: 50%;
+}
+.blue{
+    color: skyblue;
+}
+.bg-wrap{
+    background-image: url("img/Frame\ 57.jpg");
+    background-repeat: no-repeat; background-size: cover; background-position: center;
+}
+.res-des{
+    text-align: center; margin: 40px; padding: 20px;
+}
+.res-menu-wrap{
+     /* display: grid; grid-template-columns: 1fr 1fr 1fr;  grid-gap: 20px 90px;  */
+     justify-content: space-around; display: flex;
+    align-items: center; 
+}
+.res-menu-details img{
+ height: 250px; margin: 0 auto; border-radius: 15px; width: 100%;
+}
+.res-menu-details{
+  display: flex; justify-content: center; align-items: center; flex-direction: column; 
+  padding: 10px; border-radius: 15px ; box-shadow: 0px 0px 20px gray; width: 26%;
+}
+h2{
+    font-weight: 700; padding: 10px;
+}
+.footer{
+   
+    background-image: linear-gradient(-90deg, skyblue, rgb(99, 99, 231));
+    
+}
+.padd{
+    margin: 40px; text-align: center; padding: 30px;
+}
+
+
+
+
