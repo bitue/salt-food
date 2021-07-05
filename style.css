@@ -61,6 +61,17 @@ h2{
 .padd{
     margin: 40px; text-align: center; padding: 30px;
 }
+.social-media{
+    width: 93%; margin: 40px auto;
+    display: flex; justify-content: space-around;
+    align-items: center; background-color: rgb(160, 211, 231); border-radius: 15px;
+}
+.des{
+    padding: 40px;
+}
+h4{
+    text-align: center;
+}
 
 
 
