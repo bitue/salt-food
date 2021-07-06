@@ -20,7 +20,8 @@ a {
     padding: 15px;
     border-radius: 15px;
     background-image: linear-gradient(-90deg, skyblue, rgb(99, 99, 231));
-    margin: 20px 30px; box-shadow: 0 0 20px skyblue;
+    margin: 20px 30px;
+    box-shadow: 0 0 20px skyblue;
 }
 
 h1 {
@@ -49,6 +50,9 @@ p {
 
 .blue {
     color: skyblue;
+    background: -webkit-linear-gradient(rgb(154, 194, 231), rgb(59, 62, 236));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .bg-wrap {
@@ -95,7 +99,7 @@ h2 {
 }
 
 .footer {
-    background-image: linear-gradient(-90deg, skyblue, rgb(99, 99, 231));
+    background-image: linear-gradient(-90deg, skyblue, rgb(174, 174, 226));
 }
 
 .padd {
@@ -120,4 +124,5 @@ h2 {
 
 h4 {
     text-align: center;
+    font-size: 30px;
 }
