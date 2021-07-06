@@ -24,6 +24,24 @@ a {
     box-shadow: 0 0 20px skyblue;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    text-align: center;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
 h1 {
     font-size: 40px;
     padding: 10px;
