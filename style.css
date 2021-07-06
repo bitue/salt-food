@@ -144,3 +144,25 @@ h4 {
     text-align: center;
     font-size: 30px;
 }
+
+#con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 20px 100px;
+    text-align: center;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.email {
+    width: 60%;
+}
+
+.sub {
+    width: 20%;
+    margin-right: 30px;
+}
